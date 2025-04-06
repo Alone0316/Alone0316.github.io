@@ -1,0 +1,66 @@
+header {
+    display: inline-block;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('truetype'),
+         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('woff2'),
+         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('woff'),
+         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('svg'),
+         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('embedded-opentype');
+
+}
+
+header .name {
+    display: inline-block;
+    padding-right: 1000px;
+    
+}
+header .about {
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+header .skills {
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+header .education {
+    display: inline-block;
+    text-align: right;
+    padding-left: 5px;
+}
+
+header .experience {
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+header .contact {
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+
+/*.circle {
+    width: 240px;
+    height: 240px;
+    border-radius: 200px;
+    background: grey;
+    position: relative;
+    top: 150px;
+    left: 300px;
+}*/
+
+
+
+.info {
+    text-align: right;
+    padding-right: 500px;
+    font-family: "Nunito";
+}
