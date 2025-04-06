@@ -47,18 +47,10 @@ header .contact {
     padding-right: 5px;
 }
 
-/*.circle {
-    width: 240px;
-    height: 240px;
-    border-radius: 200px;
-    background: grey;
-    position: relative;
-    top: 150px;
-    left: 300px;
-}*/
-
-
-
+hr {
+    width: 1500px;
+    
+}
 .info {
     text-align: right;
     padding-right: 500px;
