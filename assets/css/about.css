@@ -1,9 +1,17 @@
 @import "font.css";
 
+body {
+    background-image: url(../images/background_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .about {
     position: fixed;
     top: 200px;
     left: 700px;
+    color: white;
+    font-family: 'Nunito';
 }
 
 .info {
@@ -11,4 +19,5 @@
     top: 250px;
     left: 350px;
     font-family: 'Nunito';
+    color: white;
 }
