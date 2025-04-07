@@ -5,5 +5,14 @@
          url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('woff'),
          url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('svg'),
          url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('../fonts/Nunito/static/Nunito-Bold.ttf') format('truetype'),
+         url('../fonts/Nunito/static/Nunito-Bold.ttf') format('woff2'),
+         url('../fonts/Nunito/static/Nunito-Bold.ttf') format('woff'),
+         url('../fonts/Nunito/static/Nunito-Bold.ttf') format('svg'),
+         url('../fonts/Nunito/static/Nunito-Bold.ttf') format('embedded-opentype');
 
 }
