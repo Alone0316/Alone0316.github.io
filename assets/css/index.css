@@ -80,3 +80,10 @@ a:active {
     text-decoration: none;
     color: white;
 }
+
+.footer {
+    font-family: 'Nunito-Bold';
+    color: white;
+    padding-left: 700px;
+    padding-top: 240px;
+}
