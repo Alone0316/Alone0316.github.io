@@ -1,0 +1,47 @@
+@import "font.css";
+
+body {
+    background-image: url(../images/background_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contact {
+    position: fixed;
+    top: 250px;
+    left: 700px;
+    font-family: 'Nunito-Bold';
+    color: white;
+}
+
+.git {
+    width: 50px;
+    height: 45px;
+    position: fixed;
+    top: 367px;
+    left: 650px;
+}
+
+.linkedin {
+    width: 50px;
+    height: 45px;
+    position: fixed;
+    top: 365px;
+    left: 700px;
+}
+
+.telegram {
+    width: 50px;
+    height: 45px;
+    position: fixed;
+    top: 365px;
+    left: 750px;
+}
+
+.email {
+    width: 50px;
+    height: 45px;
+    position: fixed;
+    top: 365px;
+    left: 800px;
+}
