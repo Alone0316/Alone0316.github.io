@@ -1,15 +1,7 @@
+@import "font.css";
+
 header {
     display: inline-block;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('truetype'),
-         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('woff2'),
-         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('woff'),
-         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('svg'),
-         url('../fonts/Nunito/static/Nunito-ExtraLight.ttf') format('embedded-opentype');
-
 }
 
 header .name {
@@ -23,7 +15,7 @@ header .about {
     padding-right: 5px;
 }
 
-header .skills {
+header .resume {
     display: inline-block;
     text-align: right;
     padding-right: 5px;
@@ -49,7 +41,6 @@ header .contact {
 
 hr {
     width: 1500px;
-    
 }
 .info {
     text-align: right;
