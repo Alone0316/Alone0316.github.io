@@ -1,0 +1,14 @@
+@import "font.css";
+
+.about {
+    position: fixed;
+    top: 200px;
+    left: 700px;
+}
+
+.info {
+    position: fixed;
+    top: 250px;
+    left: 350px;
+    font-family: 'Nunito';
+}
