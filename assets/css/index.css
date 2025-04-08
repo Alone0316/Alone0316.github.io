@@ -37,12 +37,12 @@ header .education {
     font-family: 'Nunito';
 }
 
-header .experience {
+/* header .experience {
     display: inline-block;
     text-align: right;
     padding-right: 5px;
     font-family: 'Nunito';
-}
+}*/
 
 header .contact {
     display: inline-block;
