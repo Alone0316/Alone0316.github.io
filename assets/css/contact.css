@@ -1,47 +1,79 @@
 @import "font.css";
 
 body {
-    background-image: url(../images/background_img.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.contact {
-    position: fixed;
-    top: 250px;
-    left: 700px;
-    font-family: 'Nunito-Bold';
+    background: url(../images/background_img.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 95%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    font-family: 'Nunito';
     color: white;
 }
 
+.contact {
+    font-size: 1.2rem;
+    margin-top: 11rem;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.icons-container a img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .contact h2 {
+        font-size: 2rem;
+    }
+
+    .icons-container a img {
+        width: 50px;
+        height: 50px;
+    }
+}
+/*
 .git {
-    width: 50px;
-    height: 45px;
+    width: 50%;
+    height: 45%;
     position: fixed;
-    top: 367px;
-    left: 650px;
+    top: 50%;
+    left: 38%;
 }
 
 .linkedin {
-    width: 50px;
-    height: 45px;
+    width: 50%;
+    height: 45%;
     position: fixed;
-    top: 365px;
-    left: 700px;
+    top: 50%;
+    left: 44%;
 }
 
 .telegram {
-    width: 50px;
-    height: 45px;
+    width: 50%;
+    height: 45%;
     position: fixed;
-    top: 365px;
-    left: 750px;
+    top: 50%;
+    left: 50%;
 }
 
 .email {
-    width: 50px;
-    height: 45px;
+    width: 50%;
+    height: 45%;
     position: fixed;
-    top: 365px;
-    left: 800px;
-}
+    top: 50%;
+    left: 56%;
+}*/
